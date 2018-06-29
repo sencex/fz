@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TWaver Documents &raquo; 开发指南 &#8211;  TWaver Doodle</title>
+<link rel="stylesheet" type="text/css" href="../../wp-content/themes/mono/style.css">
+<LINK href="http://doc.servasoft.com/twaver-document-center/twaver-doodle/favicon.ico" type="image/x-icon" rel=icon>
+<LINK href="http://doc.servasoft.com/twaver-document-center/twaver-doodle/favicon.ico" type="image/x-icon" rel="shortcut icon">
+<script type='text/javascript' src="../../wp-content/themes/mono/mono.js"></script>
+<meta name='robots' content='noindex,follow' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/doc.servasoft.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='../../wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min-ver=_2.7.2_beta.css' type='text/css' media='all' />
+<link rel='stylesheet' id='toc-screen-css'  href='../../wp-content/plugins/table-of-contents-plus/screen.min-ver=1509.css' type='text/css' media='all' />
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-ver=1.11.3.js'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/doc.servasoft.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min-ver=_2.7.2_beta.js'></script>
+<script type='text/javascript' src='../../wp-content/plugins/simple-scroll-to-top/js/backttoTop-ver=4.4.2.js'></script>
+<link rel='https://api.w.org/' href='../../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc.php-rsd.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed-url=http_||doc.servasoft.com|twaver-document-center|twaver-doodle|.json" />
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed-url=http_||doc.servasoft.com|twaver-document-center|twaver-doodle|&format=xml.xml" />
+<!-- Simple Scroll To Top 1.0 by Vijayakumar S -->
+<style type="text/css">.GotoTop{width:100px;border:1px solid #ccc;background:#f7f7f7;text-align:center;position:fixed;bottom:10px;right:10px;cursor:pointer;display:none;color:#333;font-family:verdana;font-size:11px;padding:5px}</style>
+</head>
+
+
+<body>
+
+
+<div class="top" id="header">
+<div class="top_c">
+<div class="topmenu">
+<a href="http://servasoft.com/demos">Demo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a style="border-bottom:solid 3px #e56417;" href="../../index.html">文档</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://servasoft.com/blog">博客</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://servasoft.com/tips">支持库</a><img src="../../wp-content/themes/mono/images/support.png" style="margin-left:0px;margin-bottom:3px;" />&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://servasoft.com/forum">论坛</a><img src="../../wp-content/themes/mono/images/forum_icon.png" style="margin-left:0px;margin-bottom:3px;" />&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://servasoft.com/about">关于</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a target="_blank" href="http://www.servasoftware.com">EN</a>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu_new" id="menubar">
+        	<div class="menu_c_new">
+            	<div class="logo_new">
+                	<a href="../../index.html"> <img src="../../wp-content/themes/mono/images/logo.png" /></a>
+                </div>
+                <div class="nav_new">
+                    <ul>
+					<li class="page_item page-item-8669"><a href="http://servasoft.com/">首页</a></li>
+					<li class="page_item page-item-8678"><a href="http://servasoft.com/product">产品</a></li>
+					<li class="page_item page-item-8690"><a href="http://servasoft.com/solution">解决方案</a></li>
+					<li class="page_item page-item-5180"><a href="http://servasoft.com/downloads">下载</a></li>
+					<li class="page_item page-item-8672"><a href="http://servasoft.com/partner">合作</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+		<div class="shadow" id="shadowbar"></div>
+
+	<div class="content">
+	
+	        <div id="sidebar" class="side">
+		  <form style="padding-left:45px;"  action="http://doc.servasoft.com/" method="get" role="search">
+	        <div class="search-wrap">
+			  <input style="width:60%;height:20px;border:1px solid #bbbbbb;vertical-align:middle;" placeholder="Search" type="search" name="s" value="" />
+              <button type="submit" style="vertical-align:middle;"><img src="../../wp-content/themes/mono/images/search_icon.png" /></button>
+    	    </div>
+	      </form>
+            <ul>
+                <li class="page_item page-item-1453 page_item_has_children current_page_ancestor current_page_parent"><a href="../../index.html">TWAVER DOCUMENT CENTER</a>
+<ul class='children'>
+	<li class="page_item page-item-5365 page_item_has_children current_page_item"><a href="index.html"><img src='../../wp-content/themes/mono/images/bookmark_book_open.png'>开发指南 &#8211;  TWaver Doodle</a>
+	<ul class='children'>
+		<li class="page_item page-item-5368"><a href="产品概述/index.html">产品概述</a></li>
+		<li class="page_item page-item-5370"><a href="场景编辑器/index.html">场景编辑器</a></li>
+		<li class="page_item page-item-5372"><a href="机柜面板编辑器/index.html">机柜面板编辑器</a></li>
+		<li class="page_item page-item-5374"><a href="设备面板编辑器/index.html">设备面板编辑器</a></li>
+		<li class="page_item page-item-5376"><a href="组件模板编辑器/index.html">组件模板编辑器</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+            </ul>
+        </div>
+
+	
+        <div id="print_content" class="c_right">
+            <div class="c_right_contain">
+				<div id="views_header" class="update_info">282 views. Last update: March 29, 2016</div>
+            	<span class="nav_c_right">
+                	<ol>
+
+						<li><a href="../../index.html" title="TWAVER DOCUMENT CENTER">TWAVER DOCUMENT CENTER</a></li>
+                        <li><img src='../../wp-content/themes/mono/images/bookmark_book_open.png'>开发指南 &#8211;  TWaver Doodle</li>
+                        <div class="clear"></div>
+                    </ol>
+                </span>
+				
+				<div style="padding-left:10px; padding-top:20px;float:right;">
+                    <a href="index.html" onclick="printFriendly(); return false;">
+                    <img id="print_button_header" style="border:none;-webkit-box-shadow:none; box-shadow:none;" src="../../wp-content/themes/mono/images/button-print-gry20.png" alt="Print" />
+                    </a>
+                </div>
+
+            	<div class="o_content">
+                	<ul class="su-subpages"><li class="page_item page-item-5368"><a href="产品概述/index.html">产品概述</a></li>
+<li class="page_item page-item-5370"><a href="场景编辑器/index.html">场景编辑器</a></li>
+<li class="page_item page-item-5372"><a href="机柜面板编辑器/index.html">机柜面板编辑器</a></li>
+<li class="page_item page-item-5374"><a href="设备面板编辑器/index.html">设备面板编辑器</a></li>
+<li class="page_item page-item-5376"><a href="组件模板编辑器/index.html">组件模板编辑器</a></li>
+</ul>
+					<div id="views_footer" class="update_info">282 views. Last update: March 29, 2016</div>
+				</div>
+				<div style="padding-left:10px; padding-top:10px;float:right;">
+					<a href="index.html" onclick="printFriendly(); return false;">
+					<img id="print_button_footer" style="border:none;-webkit-box-shadow:none; box-shadow:none;" src="../../wp-content/themes/mono/images/button-print-gry20.png" alt="Print" />
+					</a>
+				</div>
+				<div id="comments"></div>
+            </div>
+        	
+        </div>
+
+        <div class="clear"></div>
+
+	
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/table-of-contents-plus/front.min-ver=1509.js'></script>
+<script type='text/javascript' src='../../wp-includes/js/wp-embed.min-ver=4.4.2.js'></script>
+
+        <div class="footer" id="footer">
+                <p class="foot_t">
+                <script type="text/javascript">
+                                        copyright=new Date();
+                                        update=copyright.getFullYear();
+                                        document.write("版权所有 &copy; 2004-"+ update + "  赛瓦软件 Serva Software | 沪ICP备10200962号");
+                                </script>
+            </p>
+
+        </div>
+
+    </div>
+
+<div style="display:none"><script src="http://s14.cnzz.com/stat.php?id=5023414&web_id=5023414" language="JavaScript"></script></div>
+</body>
+</html>
+

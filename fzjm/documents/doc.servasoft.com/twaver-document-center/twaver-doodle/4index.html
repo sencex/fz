@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TWaver Documents &raquo; 组件模板编辑器</title>
+<link rel="stylesheet" type="text/css" href="../../../wp-content/themes/mono/style.css">
+<LINK href="http://doc.servasoft.com/twaver-document-center/twaver-doodle/%e7%bb%84%e4%bb%b6%e6%a8%a1%e6%9d%bf%e7%bc%96%e8%be%91%e5%99%a8/favicon.ico" type="image/x-icon" rel=icon>
+<LINK href="http://doc.servasoft.com/twaver-document-center/twaver-doodle/%e7%bb%84%e4%bb%b6%e6%a8%a1%e6%9d%bf%e7%bc%96%e8%be%91%e5%99%a8/favicon.ico" type="image/x-icon" rel="shortcut icon">
+<script type='text/javascript' src="../../../wp-content/themes/mono/mono.js"></script>
+<meta name='robots' content='noindex,follow' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/doc.servasoft.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.2"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d"),f=String.fromCharCode;return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(f(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(f(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(f(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(f(55357,56835),0,0):e.fillText(f(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='crayon-css'  href='../../../wp-content/plugins/crayon-syntax-highlighter/css/min/crayon.min-ver=_2.7.2_beta.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-theme-eclipse-css'  href='../../../wp-content/plugins/crayon-syntax-highlighter/themes/eclipse/eclipse-ver=_2.7.2_beta.css' type='text/css' media='all' />
+<link rel='stylesheet' id='crayon-font-monaco-css'  href='../../../wp-content/plugins/crayon-syntax-highlighter/fonts/monaco-ver=_2.7.2_beta.css' type='text/css' media='all' />
+<link rel='stylesheet' id='toc-screen-css'  href='../../../wp-content/plugins/table-of-contents-plus/screen.min-ver=1509.css' type='text/css' media='all' />
+<script type='text/javascript' src='../../../wp-includes/js/jquery/jquery-ver=1.11.3.js'></script>
+<script type='text/javascript' src='../../../wp-includes/js/jquery/jquery-migrate.min-ver=1.2.1.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var CrayonSyntaxSettings = {"version":"_2.7.2_beta","is_admin":"0","ajaxurl":"http:\/\/doc.servasoft.com\/wp-admin\/admin-ajax.php","prefix":"crayon-","setting":"crayon-setting","selected":"crayon-setting-selected","changed":"crayon-setting-changed","special":"crayon-setting-special","orig_value":"data-orig-value","debug":""};
+var CrayonSyntaxStrings = {"copy":"Press %s to Copy, %s to Paste","minimize":"Click To Expand Code"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../wp-content/plugins/crayon-syntax-highlighter/js/min/crayon.min-ver=_2.7.2_beta.js'></script>
+<script type='text/javascript' src='../../../wp-content/plugins/simple-scroll-to-top/js/backttoTop-ver=4.4.2.js'></script>
+<link rel='https://api.w.org/' href='../../../wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../../xmlrpc.php-rsd.xml" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../../wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.2" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="../../../wp-json/oembed/1.0/embed-url=http_||doc.servasoft.com|twaver-document-center|twaver-doodle|_e7_bb_84_e4_bb_b6_e6_a8_a1_e6_9d_bf_e7_bc_96_e8_be_91_e5_99_a8|.json" />
+<link rel="alternate" type="text/xml+oembed" href="../../../wp-json/oembed/1.0/embed-url=http_||doc.servasoft.com|twaver-document-center|twaver-doodle|_e7_bb_84_e4_bb_b6_e6_a8_a1_e6_9d_bf_e7_bc_96_e8_be_91_e5_99_a8|&format=xml.xml" />
+<!-- Simple Scroll To Top 1.0 by Vijayakumar S -->
+<style type="text/css">.GotoTop{width:100px;border:1px solid #ccc;background:#f7f7f7;text-align:center;position:fixed;bottom:10px;right:10px;cursor:pointer;display:none;color:#333;font-family:verdana;font-size:11px;padding:5px}</style>
+</head>
+
+
+<body>
+
+
+<div class="top" id="header">
+<div class="top_c">
+<div class="topmenu">
+<a href="http://servasoft.com/demos">Demo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a style="border-bottom:solid 3px #e56417;" href="../../../index.html">文档</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://servasoft.com/blog">博客</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://servasoft.com/tips">支持库</a><img src="../../../wp-content/themes/mono/images/support.png" style="margin-left:0px;margin-bottom:3px;" />&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://servasoft.com/forum">论坛</a><img src="../../../wp-content/themes/mono/images/forum_icon.png" style="margin-left:0px;margin-bottom:3px;" />&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://servasoft.com/about">关于</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a target="_blank" href="http://www.servasoftware.com">EN</a>
+
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu_new" id="menubar">
+        	<div class="menu_c_new">
+            	<div class="logo_new">
+                	<a href="../../../index.html"> <img src="../../../wp-content/themes/mono/images/logo.png" /></a>
+                </div>
+                <div class="nav_new">
+                    <ul>
+					<li class="page_item page-item-8669"><a href="http://servasoft.com/">首页</a></li>
+					<li class="page_item page-item-8678"><a href="http://servasoft.com/product">产品</a></li>
+					<li class="page_item page-item-8690"><a href="http://servasoft.com/solution">解决方案</a></li>
+					<li class="page_item page-item-5180"><a href="http://servasoft.com/downloads">下载</a></li>
+					<li class="page_item page-item-8672"><a href="http://servasoft.com/partner">合作</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+		<div class="shadow" id="shadowbar"></div>
+
+	<div class="content">
+	
+	        <div id="sidebar" class="side">
+		  <form style="padding-left:45px;"  action="http://doc.servasoft.com/" method="get" role="search">
+	        <div class="search-wrap">
+			  <input style="width:60%;height:20px;border:1px solid #bbbbbb;vertical-align:middle;" placeholder="Search" type="search" name="s" value="" />
+              <button type="submit" style="vertical-align:middle;"><img src="../../../wp-content/themes/mono/images/search_icon.png" /></button>
+    	    </div>
+	      </form>
+            <ul>
+                <li class="page_item page-item-1453 page_item_has_children current_page_ancestor"><a href="../../../index.html">TWAVER DOCUMENT CENTER</a>
+<ul class='children'>
+	<li class="page_item page-item-5365 page_item_has_children current_page_ancestor current_page_parent"><a href="../index.html"><img src='../../../wp-content/themes/mono/images/bookmark_book_open.png'>开发指南 &#8211;  TWaver Doodle</a>
+	<ul class='children'>
+		<li class="page_item page-item-5368"><a href="../产品概述/index.html">产品概述</a></li>
+		<li class="page_item page-item-5370"><a href="../场景编辑器/index.html">场景编辑器</a></li>
+		<li class="page_item page-item-5372"><a href="../机柜面板编辑器/index.html">机柜面板编辑器</a></li>
+		<li class="page_item page-item-5374"><a href="../设备面板编辑器/index.html">设备面板编辑器</a></li>
+		<li class="page_item page-item-5376 current_page_item"><a href="index.html">组件模板编辑器</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+            </ul>
+        </div>
+
+	
+        <div id="print_content" class="c_right">
+            <div class="c_right_contain">
+				<div id="views_header" class="update_info">92 views. Last update: March 22, 2016</div>
+            	<span class="nav_c_right">
+                	<ol>
+
+						<li id="root_nav"><a href="../../../index.html" title="TWAVER DOCUMENT CENTER">TWAVER DOCUMENT CENTER</a></li><li><a href="../index.html" title="<img src='/wp-content/themes/mono/images/bookmark_book_open.png'>开发指南 &#8211;  TWaver Doodle"><img src='../../../wp-content/themes/mono/images/bookmark_book_open.png'>开发指南 &#8211;  TWaver Doodle</a></li>
+                        <li>组件模板编辑器</li>
+                        <div class="clear"></div>
+                    </ol>
+                </span>
+				
+				<div style="padding-left:10px; padding-top:20px;float:right;">
+                    <a href="index.html" onclick="printFriendly(); return false;">
+                    <img id="print_button_header" style="border:none;-webkit-box-shadow:none; box-shadow:none;" src="../../../wp-content/themes/mono/images/button-print-gry20.png" alt="Print" />
+                    </a>
+                </div>
+
+            	<div class="o_content">
+                	<div id="toc_container" class="toc_wrap_right toc_white no_bullets"><p class="toc_title">IN THIS PAGE</p><ul class="toc_list"><li><a href="index.html#i"><span class="toc_number toc_depth_1">1</span> 功能介绍</a></li><li><a href="index.html#i-2"><span class="toc_number toc_depth_1">2</span> 组成部份</a><ul><li><a href="index.html#i-3"><span class="toc_number toc_depth_2">2.1</span> 工具栏</a></li><li><a href="index.html#i-4"><span class="toc_number toc_depth_2">2.2</span> 组件栏</a></li><li><a href="index.html#i-5"><span class="toc_number toc_depth_2">2.3</span> 工作区</a></li><li><a href="index.html#i-6"><span class="toc_number toc_depth_2">2.4</span> 属性框</a></li></ul></li><li><a href="index.html#i-7"><span class="toc_number toc_depth_1">3</span> 系统集成</a></li></ul></div>
+<h1><span id="i">功能介绍</span></h1>
+<p>组件模板编辑器是可视化修改组建属性、样式等信息的编辑工具。</p>
+<h1><span id="i-2">组成部份</span></h1>
+<p>主要分为4个部分，上边为工具栏，左边为组件栏，中间为工作区，工作区右上角为设备属性框。如下图所示<br />
+<a href="../../../wp-content/uploads/2016/03/modelEditor.jpg" rel="attachment wp-att-5498"><img src="../../../wp-content/uploads/2016/03/modelEditor.jpg" alt="modelEditor" width="720" height="540" class="alignnone size-full wp-image-5498" /></a></p>
+<h2><span id="i-3">工具栏</span></h2>
+<ul>
+<li>
+<strong>Import：</strong>导入模型数据。可以是JSON字符串，也可是JSON文件<br />
+<a href="../../../wp-content/uploads/2016/03/modelEditorImport.png" rel="attachment wp-att-5499"><img src="../../../wp-content/uploads/2016/03/modelEditorImport.png" alt="modelEditorImport" width="662" height="517" class="alignnone size-full wp-image-5499" /></a>
+	</li>
+<li>
+<strong>Export：</strong>导出模型数据。<br />
+<a href="../../../wp-content/uploads/2016/03/modelEditorExport.png" rel="attachment wp-att-5500"><img src="../../../wp-content/uploads/2016/03/modelEditorExport.png" alt="modelEditorExport" width="631.8" height="398.4" class="alignnone size-full wp-image-5500" /></a>
+	</li>
+</ul>
+<h2><span id="i-4">组件栏</span></h2>
+<p>显示make中注册的模型，类别为&#8221;基本模型&#8221;、&#8221;机柜模型&#8221;、&#8221;设备&#8221;和&#8221;板块&#8221;的所有模型。如何在make中注册设备，请参照make使用手册。</p>
+<h2><span id="i-5">工作区</span></h2>
+<p>显示左边选中的组件或导入的组件3D视图。</p>
+<h2><span id="i-6">属性框</span></h2>
+<p>显示当前选中组件可以编辑的属性。</p>
+<h1><span id="i-7">系统集成</span></h1>
+<ol>
+<li>指定make路径</li>
+<li>取得显示编辑器的容器jquery对象</li>
+<li>实例化doodle.ModelEditor对象</li>
+<li>调用importJsonObject方法导入数据</li>
+<li>调用getJsonObject方法导出数据</li>
+</ol>
+<!-- Crayon Syntax Highlighter v_2.7.2_beta -->
+
+		<div id="crayon-57285c93657e9243371864" class="crayon-syntax crayon-theme-eclipse crayon-font-monaco crayon-os-pc print-yes notranslate" data-settings=" minimize scroll-mouseover" style=" max-width: 1000px; margin-top: 12px; margin-bottom: 12px; margin-left: 20px; margin-right: 35px; clear: none; font-size: 12px !important; line-height: 15px !important;">
+		
+			<div class="crayon-toolbar" data-settings=" show" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><span class="crayon-title"></span>
+			<div class="crayon-tools" style="font-size: 12px !important;height: 18px !important; line-height: 18px !important;"><div class="crayon-button crayon-nums-button" title="Toggle Line Numbers"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-plain-button" title="Toggle Plain Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-wrap-button" title="Toggle Line Wrap"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-expand-button" title="Expand Code"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-copy-button" title="Copy"><div class="crayon-button-icon"></div></div><div class="crayon-button crayon-popup-button" title="Open Code In New Window"><div class="crayon-button-icon"></div></div><span class="crayon-language">JavaScript</span></div></div>
+			<div class="crayon-info" style="min-height: 16.8px !important; line-height: 16.8px !important;"></div>
+			<div class="crayon-plain-wrap"><textarea wrap="soft" class="crayon-plain print-no" data-settings="dblclick" readonly style="-moz-tab-size:2; -o-tab-size:2; -webkit-tab-size:2; tab-size:2; font-size: 12px !important; line-height: 15px !important;">
+        //指定make路径
+        make.Default.path = './make/';
+
+        //取得显示编辑器的容器jquery对象
+        var parentView = $('.main');
+
+        //实例化doodle.ModelEditor对象
+        var modelEditor = window.modelEditor = new doodle.ModelEditor(parentView);
+
+        //调用importJsonObject方法导入数据
+        $('#import').click(function () {
+            console.log('导入内容');
+            importDialog.show();
+        });
+
+        //import json
+        var importDialog = modelEditor.createImportDialog('Import JSON', 'json', function (text) {
+            var object = JSON.parse(text);
+            modelEditor.importJsonObject(text);
+        });
+
+        //调用getJsonObject方法导出数据
+        $('#save').click(function () {
+            var text = modelEditor.getJsonObject();
+            if (!text) {
+                alert("没有数据");
+                return;
+            }
+            console.log(text);
+            var content = "&lt;div&gt;导出数据：&lt;br&gt;&lt;textarea&gt;" + text + "&lt;/textarea&gt;&lt;/div&gt;";
+            $(content).dialog({
+                "title": "导出json",
+                "width": 400,
+                "height": 500
+            });
+        });</textarea></div>
+			<div class="crayon-main" style=" max-width: 1000px;">
+				<table class="crayon-table">
+					<tr class="crayon-row">
+				<td class="crayon-nums " data-settings="show">
+					<div class="crayon-nums-content" style="font-size: 12px !important; line-height: 15px !important;"><div class="crayon-num" data-line="crayon-57285c93657e9243371864-1">1</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-2">2</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-3">3</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-4">4</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-5">5</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-6">6</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-7">7</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-8">8</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-9">9</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-10">10</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-11">11</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-12">12</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-13">13</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-14">14</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-15">15</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-16">16</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-17">17</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-18">18</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-19">19</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-20">20</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-21">21</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-22">22</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-23">23</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-24">24</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-25">25</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-26">26</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-27">27</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-28">28</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-29">29</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-30">30</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-31">31</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-32">32</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-33">33</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-34">34</div><div class="crayon-num" data-line="crayon-57285c93657e9243371864-35">35</div><div class="crayon-num crayon-striped-num" data-line="crayon-57285c93657e9243371864-36">36</div></div>
+				</td>
+						<td class="crayon-code"><div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important; -moz-tab-size:2; -o-tab-size:2; -webkit-tab-size:2; tab-size:2;"><div class="crayon-line" id="crayon-57285c93657e9243371864-1"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-c">//指定make路径</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-2"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-v">make</span><span class="crayon-sy">.</span><span class="crayon-st">Default</span><span class="crayon-sy">.</span><span class="crayon-e ">path</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">'./make/'</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-3">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-4"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-c">//取得显示编辑器的容器jquery对象</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-5"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">parentView</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-sy">$</span><span class="crayon-sy">(</span><span class="crayon-s">'.main'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-6">&nbsp;</div><div class="crayon-line" id="crayon-57285c93657e9243371864-7"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-c">//实例化doodle.ModelEditor对象</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-8"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">modelEditor</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">window</span><span class="crayon-sy">.</span><span class="crayon-v">modelEditor</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-r">new</span><span class="crayon-h"> </span><span class="crayon-v">doodle</span><span class="crayon-sy">.</span><span class="crayon-e">ModelEditor</span><span class="crayon-sy">(</span><span class="crayon-v">parentView</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-9">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-10"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-c">//调用importJsonObject方法导入数据</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-11"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">$</span><span class="crayon-sy">(</span><span class="crayon-s">'#import'</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-e">click</span><span class="crayon-sy">(</span><span class="crayon-t">function</span><span class="crayon-h"> </span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-12"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-s">'导入内容'</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-13"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-v">importDialog</span><span class="crayon-sy">.</span><span class="crayon-e">show</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-14"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-15">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-16"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-c">//import json</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-17"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">importDialog</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">modelEditor</span><span class="crayon-sy">.</span><span class="crayon-e">createImportDialog</span><span class="crayon-sy">(</span><span class="crayon-s">'Import JSON'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-s">'json'</span><span class="crayon-sy">,</span><span class="crayon-h"> </span><span class="crayon-t">function</span><span class="crayon-h"> </span><span class="crayon-sy">(</span><span class="crayon-v">text</span><span class="crayon-sy">)</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-18"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-t">object</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">JSON</span><span class="crayon-sy">.</span><span class="crayon-e">parse</span><span class="crayon-sy">(</span><span class="crayon-v">text</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-19"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-v">modelEditor</span><span class="crayon-sy">.</span><span class="crayon-e">importJsonObject</span><span class="crayon-sy">(</span><span class="crayon-v">text</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-20"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-21">&nbsp;</div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-22"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-c">//调用getJsonObject方法导出数据</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-23"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">$</span><span class="crayon-sy">(</span><span class="crayon-s">'#save'</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-e">click</span><span class="crayon-sy">(</span><span class="crayon-t">function</span><span class="crayon-h"> </span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-24"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-v">text</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-v">modelEditor</span><span class="crayon-sy">.</span><span class="crayon-e">getJsonObject</span><span class="crayon-sy">(</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-25"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-st">if</span><span class="crayon-h"> </span><span class="crayon-sy">(</span><span class="crayon-o">!</span><span class="crayon-v">text</span><span class="crayon-sy">)</span><span class="crayon-h"> </span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-26"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-r">alert</span><span class="crayon-sy">(</span><span class="crayon-s">"没有数据"</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-27"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-st">return</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-28"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">}</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-29"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-v">console</span><span class="crayon-sy">.</span><span class="crayon-e">log</span><span class="crayon-sy">(</span><span class="crayon-v">text</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-30"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-t">var</span><span class="crayon-h"> </span><span class="crayon-e ">content</span><span class="crayon-h"> </span><span class="crayon-o">=</span><span class="crayon-h"> </span><span class="crayon-s">"&lt;div&gt;导出数据：&lt;br&gt;&lt;textarea&gt;"</span><span class="crayon-h"> </span><span class="crayon-o">+</span><span class="crayon-h"> </span><span class="crayon-v">text</span><span class="crayon-h"> </span><span class="crayon-o">+</span><span class="crayon-h"> </span><span class="crayon-s">"&lt;/textarea&gt;&lt;/div&gt;"</span><span class="crayon-sy">;</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-31"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">$</span><span class="crayon-sy">(</span><span class="crayon-v">content</span><span class="crayon-sy">)</span><span class="crayon-sy">.</span><span class="crayon-e">dialog</span><span class="crayon-sy">(</span><span class="crayon-sy">{</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-32"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-s">"title"</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-s">"导出json"</span><span class="crayon-sy">,</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-33"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-s">"width"</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">400</span><span class="crayon-sy">,</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-34"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-s">"height"</span><span class="crayon-o">:</span><span class="crayon-h"> </span><span class="crayon-cn">500</span></div><div class="crayon-line" id="crayon-57285c93657e9243371864-35"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div><div class="crayon-line crayon-striped-line" id="crayon-57285c93657e9243371864-36"><span class="crayon-h">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="crayon-sy">}</span><span class="crayon-sy">)</span><span class="crayon-sy">;</span></div></div></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+<!-- [Format Time: 0.0827 seconds] -->
+
+详细可以参考编辑器中modelEditor.js</p>
+					<div id="views_footer" class="update_info">92 views. Last update: March 22, 2016</div>
+				</div>
+				<div style="padding-left:10px; padding-top:10px;float:right;">
+					<a href="index.html" onclick="printFriendly(); return false;">
+					<img id="print_button_footer" style="border:none;-webkit-box-shadow:none; box-shadow:none;" src="../../../wp-content/themes/mono/images/button-print-gry20.png" alt="Print" />
+					</a>
+				</div>
+				<div id="comments"></div>
+            </div>
+        	
+        </div>
+
+        <div class="clear"></div>
+
+	
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../wp-content/plugins/table-of-contents-plus/front.min-ver=1509.js'></script>
+<script type='text/javascript' src='../../../wp-includes/js/wp-embed.min-ver=4.4.2.js'></script>
+
+        <div class="footer" id="footer">
+                <p class="foot_t">
+                <script type="text/javascript">
+                                        copyright=new Date();
+                                        update=copyright.getFullYear();
+                                        document.write("版权所有 &copy; 2004-"+ update + "  赛瓦软件 Serva Software | 沪ICP备10200962号");
+                                </script>
+            </p>
+
+        </div>
+
+    </div>
+
+<div style="display:none"><script src="http://s14.cnzz.com/stat.php?id=5023414&web_id=5023414" language="JavaScript"></script></div>
+</body>
+</html>
+

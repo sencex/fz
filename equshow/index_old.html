@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/application.css" rel="stylesheet">
+    <script type="text/javascript" src="libs/t.js"></script>
+    <script type="text/javascript" src="libs/twaver.js"></script>
+    <script type=text/javascript>
+        var box=new mono.DataBox();
+        var cube=new mono.Cube(500,54,500);
+
+        var init=function (no) {
+
+            var camera = new mono.PerspectiveCamera(50, 1.5, 0.1, 10000);
+            camera.setPosition(0,200,1000);
+            var network=new mono.Network3D(box,camera,myCanvas);
+            network.setInteractions([new mono.DefaultInteraction(network)]);
+            network.setClearColor('gray');
+            mono.Utils.autoAdjustNetworkBounds(network,document.documentElement,'clientWidth','clientHeight');
+            //network.setBackgroundImage('../res/metal/background.jpg');
+            var pointLight = new mono.PointLight(0xFFFFFF,1.5);
+            pointLight.setPosition(0,100,1000);
+            box.add(pointLight);
+            box.add(new mono.AmbientLight(0x888888));
+
+
+            cube.s({
+                'm.type':'phong',
+                'front.m.texture.image':'res/equs/equ'+no+'.png',
+                'back.m.texture.image':'res/equs/equ'+no+'_b.png',
+                'm.color': 'lightgray',
+                'm.ambient': 'gray',
+            });
+            //cube.setRotation(Math.PI/180*0,Math.PI/180*0,Math.PI/180*0);
+
+
+            box.add(cube);
+
+
+            animateEqu(cube);
+
+
+        }
+        var changeEqu=function (no,unit,name) {
+            document.getElementById('equName').innerHTML=name;
+            cube.setHeight(54*unit);
+            cube.setStyle('front.m.texture.image','res/equs/equ'+no+'.png');
+            cube.setStyle('back.m.texture.image','res/equs/equ'+no+'_b.png');
+            if(no==='6'){
+                cube.setStyle('left.m.texture.image','res/equs/equ'+no+'_l.png');
+                cube.setStyle('right.m.texture.image','res/equs/equ'+no+'_r.png');
+            }
+            else
+            {
+                cube.setStyle('left.m.texture.image','res/equs/gray.png');
+                cube.setStyle('right.m.texture.image','res/equs/gray.png');
+            }
+            //animateEqu(cube);
+        }
+    var animateEqu=function (equ) {
+        new twaver.Animate({
+            from:Math.PI/180*0,
+            to:Math.PI/180*360,
+            delay:0,
+            dur:20000,
+            easing:'easeNone',
+            //repeat:1000,
+            reverse:false,
+            onUpdate:function (value) {
+                equ.setRotation(0,value,0)
+            },
+            onDone:function () {
+              this.play();
+            }
+        }).play();
+    }
+    </script>
+    <title>使用DataBox</title>
+    <style type="text/css">
+        button{
+            background-color: lightgray;
+            font-size: large;
+
+        }
+        p{
+
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+<body onload="init('1')" style="background-color: gray">
+<iframe style="width:100%;height: 100px;border: none;background: white;border: 0" src="../header.html"  >
+</iframe>
+
+<div>
+    <button onclick="changeEqu('1',1,'标清编码器 型号:E5710 厂商:TANDBERG')">标清编码器</button>
+    <button onclick="changeEqu('13',1,'高清编码器 型号:AVP2000 厂商:爱立信')">高清编码器</button>
+    <button onclick="changeEqu('2',1,'广播编码器 型号:VIBE 厂商:GVG')">广播编码器</button>
+    <button onclick="changeEqu('3',1,'复用器 型号:Mx5210 厂商:TANDBERG')">复用器</button>
+    <button onclick="changeEqu('4',1,'复用器开关 型号:1951 厂商:DEV')">复用器开关</button>
+    <button onclick="changeEqu('5',1,'标清调制器 型号:E5710 厂商:TANDBERG')">标清调制器</button>
+    <button onclick="changeEqu('12',1,'高清调制器 型号:SM6610 厂商:NEWTECH')">高清调制器</button>
+    <button onclick="changeEqu('6',1,'上变频器 型号:UT4505 厂商:COMTECH')">上变频器</button>
+    <button onclick="changeEqu('7',10,'高功放 型号:速调管VI3000W 厂商:CPI')">高功放</button>
+    <button onclick="changeEqu('8',2,'信标接收机 型号:253 厂商:VertexRSI')">信标接收机</button>
+    <button onclick="changeEqu('9',3,'充气机 型号:ADH 厂商:ATI')">充气机</button>
+    <button onclick="changeEqu('10',4,'天线控制器 型号:7200 厂商:VertexRSI')">天线控制器</button>
+    <button onclick="changeEqu('11',1,'自环 型号:LOOP TEST 厂商:TAMPA MICROWAVE')">自环</button>
+
+
+</div>
+
+<canvas id="myCanvas" >
+
+</canvas>
+<p id="equName" align="center">标清编码器 型号:E5710 厂商:TANDBERG</p>
+</body>
+</html>

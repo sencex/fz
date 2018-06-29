@@ -1,0 +1,2 @@
+http://10.0.14.100/pdf/yuan/*.pdf
+http://10.0.14.100/pdf/liuchen/*.pdf

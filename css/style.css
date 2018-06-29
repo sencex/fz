@@ -1,0 +1,149 @@
+body{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-image:none;
+    background-color: white;
+    font-family: "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.navbar {
+    position: relative;
+    min-height: 0;
+    margin-bottom: 0;
+    border: none;
+}
+.navbar-default {
+    border: none;
+    background-color: rgba(248, 248, 248, 0);
+}
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color:#CCB76C;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus{
+    color:#CCB76C;
+}
+.navbar-nav > li {
+    float: left;
+    margin: 0 10px;
+}
+.navbar-nav {
+    margin: 0px;
+}
+.nav > li > a {
+    text-align:center;
+    font-size:1.1em;
+    position: relative;
+    padding: 30px 16px !important;
+    letter-spacing: 1px;
+}
+.logo {
+    margin-bottom:1em;
+}
+.logo a {
+    border: 3px solid #CCB76C;
+    padding: 0.2em 0.45em;
+    border-radius: 50%;
+    font-size: 3.5em;
+    color: #CCB76C;
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar-right {
+    float: left !important;
+}
+.banner{
+    background: url(../img/banner-1.jpg) no-repeat 0px 0px;
+    background-size:cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 730px;
+}
+.banner-info {
+    margin: 9em 0 0;
+    float: right;
+    width: 32%;
+    text-align: right;
+}
+.banner-info h1 {
+    font-size: 3.5em;
+    color:#CCB76C;
+    margin: 0;
+}
+.banner-info h1 a{
+    color: #CCB76C;
+}
+.banner-info p {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0.5em 0;
+    line-height: 1.2em;
+}
+.box-content .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    line-height: 60px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.mg-top-52{
+    margin-top: 52px;
+}
+.mg-top-30{
+    margin-top: 30px;
+}
+.box-content{
+    min-height: 300px;
+}
+.box-content-text{
+    color: black;
+}
+.box-content-text a{
+    text-decoration: none;
+    color: black;
+}
+.box-content p .icon{
+    margin-top: 30px;
+}
+.header-html-box{
+    width: 292px;
+    margin: auto;
+}
+.header-html-box ul li{
+     display: inline-block;
+     float: left;
+     margin-right: 20px;
+    margin-top: 20px;
+ }
+.image-svg{
+    width: 120px;
+    height: 100%;
+    margin-bottom: 18px;
+}
+.image-svg2{
+    width: 88%;
+    height: 200px;
+}
+.image-svg3{
+    width: 100px;
+    height: 100%;
+    margin-top: 8px;
+   padding-bottom: 12px;
+}
+.mg-bt-18{
+    margin-bottom: 18px;
+}
+.mg-bt-30{
+    margin-bottom: 35px;
+}

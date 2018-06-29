@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35bee03c-1d9a-48de-8f98-b8e906dc3dcd" name="Default" comment="" />
+    <ignored path=".iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="V:/css/menu.css" />
+        <option value="V:/twaver-doodle/loaddxf.js" />
+        <option value="V:/twaver-doodle/loader.html" />
+        <option value="V:/kaoshi/jc/quiz.html" />
+        <option value="V:/kaoshi/cj/index.html" />
+        <option value="V:/kaoshi/yl/quiz.html" />
+        <option value="V:/fzjm/loaddxf.js" />
+        <option value="V:/wiki/index.html" />
+        <option value="V:/wiki/index_liuchen.html" />
+        <option value="V:/wiki/index_yuan.html" />
+        <option value="V:/fzjm/loaddxf.html" />
+        <option value="V:/room3d/index.html" />
+        <option value="V:/room3d/libs/license3D.js" />
+        <option value="V:/room3d/room3d.html" />
+        <option value="V:/room3d/js/demo.js" />
+        <option value="V:/equshow/equlink.html" />
+        <option value="V:/fzjm/sceneEditor.js" />
+        <option value="V:/fzjm/sceneEditor.html" />
+        <option value="V:/wiki/wiki.html" />
+        <option value="V:/equshow/index.html" />
+        <option value="V:/header.html" />
+        <option value="V:/index.html" />
+        <option value="V:/exam/index.aspx.cs" />
+        <option value="V:/exam/Teacher/ManageStudent.aspx" />
+        <option value="V:/exam/Teacher/ManageScore.aspx" />
+        <option value="V:/exam/User/getpwd1.aspx" />
+        <option value="V:/exam/index.aspx" />
+        <option value="V:/exam/Teacher/teacher.aspx" />
+        <option value="V:/exam/User/or.aspx" />
+        <option value="V:/exam/User/zhuce.aspx" />
+        <option value="V:/exam/User/attention.aspx" />
+        <option value="V:/exam/User/ChoosePaper.aspx" />
+        <option value="V:/exam/User/ChangePwd.aspx" />
+        <option value="V:/exam/User/MasterPage.master" />
+        <option value="V:/exam/User/Score.aspx" />
+        <option value="V:/exam/Admin/admin.aspx" />
+        <option value="V:/exam/App_Code/Datacon.cs" />
+        <option value="V:/vr/examples/basic/node_modules/upc.html" />
+        <option value="V:/vr/examples/upc.html" />
+        <option value="V:/equshow/equshow.html" />
+        <option value="V:/vr/examples/basic/upc.html" />
+        <option value="V:/vr/examples/basic/index.html" />
+        <option value="V:/dae/index.html" />
+        <option value="V:/dae/room.html" />
+        <option value="V:/dae/temp.html" />
+        <option value="V:/dae/jijia.html" />
+        <option value="V:/dae/link.html" />
+        <option value="V:/dae/room_inner.html" />
+        <option value="V:/dae/upc.html" />
+        <option value="V:/dae/upc3.html" />
+        <option value="V:/dae/dqz.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1202" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="V" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fz" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://V:/room3d/js/demo.js" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="c:\program files (x86)\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="C:/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="V:\vr\examples\basic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\equshow" />
+      <recent name="V:\vr\examples\basic\img" />
+      <recent name="V:\vr\examples\basic\node_modules\three" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="false" name="ColladaLoader.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ColladaLoader.js" working-dir="V:/dae/js/loaders">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35bee03c-1d9a-48de-8f98-b8e906dc3dcd" name="Default" comment="" />
+      <created>1472098719356</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1472098719356</updated>
+      <workItem from="1472098721413" duration="2308000" />
+      <workItem from="1473729773025" duration="8165000" />
+      <workItem from="1473816317833" duration="928000" />
+      <workItem from="1473819137322" duration="4059000" />
+      <workItem from="1474269263578" duration="2321000" />
+      <workItem from="1474334357311" duration="6503000" />
+      <workItem from="1474529467696" duration="427000" />
+      <workItem from="1474530125813" duration="438000" />
+      <workItem from="1475219501718" duration="534000" />
+      <workItem from="1475220244456" duration="1378000" />
+      <workItem from="1475221689576" duration="356000" />
+      <workItem from="1476930318281" duration="261000" />
+      <workItem from="1476942031724" duration="517000" />
+      <workItem from="1477274455396" duration="5605000" />
+      <workItem from="1477290250595" duration="3523000" />
+      <workItem from="1477537235317" duration="7083000" />
+      <workItem from="1477552624419" duration="6211000" />
+      <workItem from="1477621777625" duration="1319000" />
+      <workItem from="1477623143223" duration="1813000" />
+      <workItem from="1477635594367" duration="7121000" />
+      <workItem from="1477978392301" duration="1011000" />
+      <workItem from="1477980535979" duration="140000" />
+      <workItem from="1477984501396" duration="3111000" />
+      <workItem from="1478168322646" duration="141000" />
+      <workItem from="1478491470778" duration="1613000" />
+      <workItem from="1478499146000" duration="631000" />
+      <workItem from="1478572198281" duration="2972000" />
+      <workItem from="1478575591201" duration="6844000" />
+      <workItem from="1478591477099" duration="3828000" />
+      <workItem from="1478655970236" duration="732000" />
+      <workItem from="1478659138916" duration="2299000" />
+      <workItem from="1478661788777" duration="831000" />
+      <workItem from="1478675087107" duration="14481000" />
+      <workItem from="1478758210191" duration="2704000" />
+      <workItem from="1478824846398" duration="1862000" />
+      <workItem from="1478827745312" duration="7215000" />
+      <workItem from="1478850173190" duration="1226000" />
+      <workItem from="1479347890468" duration="3415000" />
+      <workItem from="1479365108783" duration="86000" />
+      <workItem from="1479365977678" duration="441000" />
+      <workItem from="1479450716531" duration="7094000" />
+      <workItem from="1480662735456" duration="2778000" />
+      <workItem from="1480665713410" duration="3819000" />
+      <workItem from="1480732091176" duration="7532000" />
+      <workItem from="1481081180508" duration="579000" />
+      <workItem from="1481286753579" duration="4629000" />
+    </task>
+    <task id="LOCAL-00001" summary="卫星站仿真系统">
+      <created>1530106941299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530106941299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="142884000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1202" height="1040" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29679596" />
+      <window_info anchor="bottom" id="TODO" order="0" weight="0.32995495" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.1492205" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" visible="true" weight="0.32962137" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3048072" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="TODO" order="0" weight="0.32995495" />
+      <window_info anchor="bottom" id="Debug" order="6" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="卫星站仿真系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="卫星站仿真系统" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://V:/exam/User/Score.aspx" />
+    <entry file="file://V:/exam/User/wait.aspx" />
+    <entry file="file://V:/exam/User/zhuce.aspx" />
+    <entry file="file://V:/exam/Teacher/teacher.aspx.cs" />
+    <entry file="file://V:/exam/User/MasterPage.master.cs" />
+    <entry file="file://V:/exam/User/MasterPage.master" />
+    <entry file="file://V:/exam/User/or.aspx" />
+    <entry file="file://V:/exam/User/attention.aspx" />
+    <entry file="file://V:/exam/User/ChangePwd.aspx" />
+    <entry file="file://V:/exam/User/ChoosePaper.aspx.cs" />
+    <entry file="file://V:/exam/User/ChoosePaper.aspx" />
+    <entry file="file://V:/exam/Teacher/teacher.aspx" />
+    <entry file="file://V:/exam/Admin/admin.aspx" />
+    <entry file="file://V:/exam/App_Code/Datacon.cs" />
+    <entry file="file://V:/index.html" />
+    <entry file="file://V:/vr/index.html" />
+    <entry file="file://V:/vr/examples/basic/node_modules/three/stats.min.js" />
+    <entry file="file://V:/vr/examples/basic/node_modules/upc.html" />
+    <entry file="file://V:/vr/examples/index.html" />
+    <entry file="file://V:/equshow/res/equs/equ1.png" />
+    <entry file="file://V:/equshow/res/equs/equ11_b.png" />
+    <entry file="file://V:/equshow/res/equs/equ7.png" />
+    <entry file="file://V:/equshow/res/equs/equ8.png" />
+    <entry file="file://V:/equshow/res/equs/equ9_b.png" />
+    <entry file="file://V:/equshow/res/equs/equ9.png" />
+    <entry file="file://V:/equshow/res/equs/equ10.png" />
+    <entry file="file://V:/vr/examples/basic/img/equ7.png" />
+    <entry file="file://V:/equshow/js/libs/ammo.js" />
+    <entry file="file://V:/equshow/UpConverter/index.html" />
+    <entry file="file://V:/vr/examples/basic/upc.html" />
+    <entry file="file://V:/vr/examples/basic/img/box.png" />
+    <entry file="file://V:/vr/examples/basic/index.html" />
+    <entry file="file://V:/room3d/index.html" />
+    <entry file="file://V:/room3d/room3d.html" />
+    <entry file="file://V:/equshow/equlink.html" />
+    <entry file="file://V:/equshow/equshow.html" />
+    <entry file="file://V:/equshow/index_old.html" />
+    <entry file="file://V:/dae/control.html" />
+    <entry file="file://V:/dae/temp.html" />
+    <entry file="file://V:/equshow/index.html" />
+    <entry file="file://V:/dae/jijia.html" />
+    <entry file="file://V:/dae/link.html" />
+    <entry file="file://V:/dae/room_inner.html" />
+    <entry file="file://V:/dae/upc.html" />
+    <entry file="file://V:/dae/upc3.html" />
+    <entry file="file://V:/dae/index.html" />
+    <entry file="file://V:/dae/room.html" />
+    <entry file="file://V:/dae/js/Detector.js" />
+    <entry file="file://V:/dae/js/loaders/ColladaLoader.js" />
+    <entry file="file://V:/dae/dqz.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

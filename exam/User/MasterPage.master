@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="User_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+<link href="../css/Common.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.footer{width:1000px;margin:0px auto;height:50px;margin-top:10px;text-align:center;}  
+#head_1{margin:0px auto;background:url(../image/1.png);height:40px;border-bottom:1px solid #e3e3e3;}
+#head_content{width:1000px;margin:0px auto;height:40px;line-height:40px;}
+#middle{width:1000px;height:80px;margin:0px auto;border-bottom:1px solid #eeeeee;line-height:80px;margin-top:20px;}
+.middle-left{float:left;}
+.middle-right{float:right;}
+.middle-right a{color:#278aed;}
+#bottom{margin:0px auto;height:78px;background:url(../image/footer.png);border-top:1px solid #c0c1c1;margin-top:20px;}
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+     <div id="head_1">
+
+      <div id="head_content"><span style="font-size:15pt;font-weight:bold;color:#999999;">  <asp:ImageButton ID="ImageButton2" runat="server" 
+              ImageUrl="~/image/home1.gif" />卫星地球站在线考试系统</span></div>  
+    </div>
+     <div class="clear"></div>
+    <div id="middle">
+       <div class="middle-left"><span style="font-size:18pt;font-family:黑体;font-weight:bold;">找回密码</span></div>
+       <div class="middle-right"> <span style="color:#d5d5d5;">已经拥有账户？</span><a href="../index.aspx">立即登录</a></div>
+    </div>
+       <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+       </asp:ContentPlaceHolder> 
+      <div id="bottom">      
+      <div class="footer"><p style="font-size:12px;color:#575757"> Copyright @2016 江苏卫星地球站版权所有</p></div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

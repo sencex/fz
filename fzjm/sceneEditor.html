@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <title>建模工具</title>
+    <meta name="keywords" content="TWaver, TWaver 3D, 3D, editor, "/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" href="./css/jquery-ui-1.10.4.custom.min.css">
+    <link rel="stylesheet" href="./css/twaver-doodle.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<iframe style="width:100%;height: 100px;border-bottom: none;border: 0;" src="../header.html"  >
+</iframe>
+<body>
+<div style="pading-top: 20px">
+    <div id='top'>
+
+        <div><span></span>
+            <div class='header'></div>
+        </div>
+        <div id="toolbar" class="toolbar">
+
+            <span id="overview" class="mn-toolbar mn-overview" title="缩放到全屏"></span>
+            <span id="importDxf" class="mn-toolbar mn-import-dxf" title="导入DXF"></span>
+            <span id="importJson" class="mn-toolbar mn-import-json" title="导入JSON"></span>
+            <span id='export' class="mn-toolbar mn-export-json" title="导出JSON"></span>
+            <span id='exportscene' class="mn-toolbar mn-save" title="保存场景"></span>
+            <span id='clear' class="mn-toolbar mn-clear" title="清空"></span>
+            <span class='nm-divider'></span>
+
+        <span id="repeat">
+            <input type="radio" id="2d" name="repeat" checked="checked"/><label for="2d">2D</label>
+            <input type="radio" id="3d" name="repeat"/><label for="3d">3D</label>
+        </span>
+        </div>
+    </div>
+    <!-- header end -->
+
+
+    <div class="main"></div>
+    <div class = 'nav' id='nav'>
+        <ul>
+            <li>
+                <a href="sceneEditor.html?show=false">
+                    <img class= 'mn-nav' src="./images/nav_01.png">
+                    <span>场景编辑器</span>
+                </a>
+
+            </li>
+            <li>
+                <a href="rackEditor.html">
+                    <img class= 'mn-nav' src="./images/nav_02.png">
+                    <span>机架编辑器</span>
+                </a>
+
+            </li>
+            <li>
+                <a href="deviceEditor.html">
+                    <img class= 'mn-nav' src="./images/nav_03.png">
+                    <span>面板编辑器</span>
+                </a>
+            </li>
+            <li>
+                <a href="modelEditor.html">
+                    <img class= 'mn-nav' src="./images/nav_04.png">
+                    <span>模型编辑器</span>
+                </a>
+            </li>
+            <li>
+                <a href="circuitEditor.html">
+                    <img class= 'mn-nav' src="./images/nav_05.png">
+                    <span>电路编辑器</span>
+                </a>
+            </li>
+        </ul>
+        <!-- <span id="scene" class="mn-nav mn-scene"></span>
+        <span id="rack" class="mn-nav mn-rack"></span>
+        <span id="device" class="mn-nav mn-device"></span>
+        <span id="model" class="mn-nav mn-model"></span>
+        <span id="ele" class="mn-nav mn-ele"></span> -->
+
+    </div>
+    <!-- footer begin -->
+    <div id='footer'>
+        <p class='footer-p'>
+            Copyright &copy; 2016 地球站仿真系统 | 设计工具
+        </p>
+    </div>
+</div>
+<!-- header begin -->
+
+<!-- footer end -->
+<script src="./libs/jquery.js"></script>
+<script src="./libs/jquery.ba-resize.js"></script>
+<script src="./libs/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="./libs/twaver.js"></script>
+<script src="./libs/core-twaver.js"></script>
+<script src="./libs/dxf.js"></script>
+<script src="./libs/twaver-make.js"></script>
+
+<script src="libs/twaver-doodle.js"></script>
+
+<script src="sceneEditor.js"></script>
+<script src="libs/memoryCache.js"></script>
+<script src="libs/serverCache.js"></script>
+<script src="tools.js"></script>
+<script src="libs/proxy.js"></script>
+<script src="libs/license3D.js"></script>
+</body>
+</html>

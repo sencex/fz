@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>DataAnalysis</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <meta name="description" content="" />
+    <script src="./js/echarts.js"></script>
+    <script src="./js/customed.js"></script>
+</head>
+<body>
+<iframe style="width:100%;height: 100px;border-bottom: none;border: 0px;" src="../../header.html"  >
+</iframe>
+<div class="widget">
+    <div id="main" style="width: 1200px;height:800px;margin: auto"></div>
+</div>
+</body>
+<script type="text/javascript">
+
+    var myChart = echarts.init(document.getElementById('main'));
+    option = {
+
+        title: { text: '成绩统计' },
+
+        tooltip : {
+
+            trigger: 'axis',
+
+            axisPointer : { type : 'shadow' }
+
+        },
+
+        // 图例
+
+        legend: {
+
+            data:['学习课时','基础知识','模拟演练','综合评分'], right: '10'
+
+        },
+
+        //绘图区域
+
+        grid: {
+
+            show: true, borderColor: '', left: '3%', right: '4%', bottom: '10%', containLabel: true
+
+        },
+
+        xAxis : [
+
+            {
+
+                // X轴标题、?
+
+                name: '', nameLocation: 'middle', nameGap: 50, nameTextStyle: { fontSize: 16 },
+
+                type : 'category',
+
+                // X轴标签
+
+                axisLabel: { rotate: -30 },
+
+                data : ['叶青', '胡振光', '韩伟民', '韩辰', '洪轩', '周颖', '李鹏飞']
+
+            }
+
+        ],
+
+        yAxis : [
+
+            {
+
+                // Y轴标签
+
+                axisLabel: { rotate: 30 },
+
+                type : 'value',
+
+                // 刻度
+
+                splitNumber: 12,
+
+            }
+
+        ],
+
+        //1. 数据序列
+
+        series : [
+
+            {
+                label: { normal: { show: true, position: 'top' } },
+                name:'学习课时',
+
+                type:'bar',
+
+                data:[70, 82, 82, 82, 79, 84, 83]
+
+            },
+
+            {
+                label: { normal: { show: true, position: 'top' } },
+                name:'基础知识',
+
+                type:'bar',
+
+                data:[100, 100, 100, 100, 95, 96, 97]
+
+            },
+
+            {
+
+
+                label: { normal: { show: true, position: 'top' } },
+
+                name:'模拟演练',
+
+                type:'bar',
+
+                data:[85, 90, 88, 93, 83, 82, 82]
+
+            }
+            ,
+
+            {
+
+
+                label: { normal: { show: true, position: 'top' } },
+
+                name:'综合评分',
+
+                type:'bar',
+
+                data:[90, 93.2, 92.2, 94.7, 87.4, 87.8, 88.1]
+
+            }
+
+        ]
+
+    };
+
+    myChart.setOption(option);
+</script>
+</html>
+

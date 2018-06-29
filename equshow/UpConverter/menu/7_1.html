@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <script type="application/javascript">
+       var getTime=function () {
+           var date=new Date();
+           var year = date.getFullYear();
+           var month = date.getMonth() + 1;
+           var day = date.getDate();
+           var hh = date.getHours();
+           var mm = date.getMinutes();
+           var ss = date.getSeconds();
+           document.getElementById("time").innerHTML=year + "-" + month + "-" + day + " " + hh + ":" + mm + ":" + ss;
+       }
+    </script>
+</head>
+<body onload="getTime()">
+<p>TIME: </p>
+<p id="time"></p>
+</body>
+</html>

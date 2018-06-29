@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url(front.png);
+            background-repeat: no-repeat;
+            background-size: 1008px 107px;
+
+        }
+        iframe#disp{
+            position: absolute;
+            top:-24px;
+            left:-305px;
+            width: 200px;
+            height: 44px;
+            background-color: yellowgreen;
+
+        }
+        iframe#pdf{
+            position: absolute;
+            top:55px;
+            left:-880px;
+            width: 1008px;
+            height: 600px;
+
+        }
+        button#b_up{
+            position: absolute;
+            top:17px;
+            left:811px;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            background-image: url(up.png);
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+        button#b_down{
+            position: absolute;
+            top:50px;
+            left:811px;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            background-image: url(down.png);
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+
+        button#b_right{
+            position: absolute;
+            top:17px;
+            left:844px;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            background-image: url(right.png);
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+        button#b_left{
+            position: absolute;
+            top:50px;
+            left:844px;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            background-image: url(left.png);
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+
+        button#b1{
+            position: absolute;
+            top:17px;
+            left:876px;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            background-image: url(ent.png);
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+        button#b_clr{
+            position: absolute;
+            top:50px;
+            left:876px;
+            width: 30px;
+            height: 30px;
+            background-color: black;
+            background-image: url(clr.png);
+            background-repeat: no-repeat;
+            background-size: 30px 30px;
+        }
+
+    </style>
+    <script  src="menu.js">
+
+    </script>
+
+
+</head>
+<body onload="init()">
+    <button id="b_up" onclick="cmd_up()"></button>
+    <button id="b_down" onclick="cmd_down()"/>
+    <button id="b_right"/>
+    <button id="b_left"/>
+    <button id="b1" onclick="cmd_ent()"/>
+    <button id="b_clr" onclick="cmd_clr()"/>
+    <iframe id="disp" scrolling="no">    </iframe>
+
+</body>
+</html>

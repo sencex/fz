@@ -1,0 +1,12 @@
+body{
+    font-size: 12px;
+}
+section{
+    height: 10px;
+    font-size: 12px;
+}
+p{
+    line-height:2px;
+    font-size:12px;
+    text-align: center;
+}

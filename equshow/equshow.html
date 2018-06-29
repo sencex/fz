@@ -1,0 +1,96 @@
+﻿
+<html lang="en">
+<head>
+    <title>欢迎来到设备学习，点击左侧设备机架可以查看设备3D外观</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="libs/jquery.js"></script>
+    <script type="text/javascript" src="libs/core-twaver.js"></script>
+    <script type="text/javascript" src="libs/license3D.js"></script>
+    <script type=text/javascript>
+        var box=new mono.DataBox();
+        var cube=new mono.Cube(1000,108,1000);
+        var init=function (no) {
+
+            var camera = new mono.PerspectiveCamera(50, 1.5, 0.1, 10000);
+            camera.setPosition(1000,500,1000);
+            var network=new mono.Network3D(box,camera,myCanvas);
+            mono.Utils.autoAdjustNetworkBounds(network,document.documentElement,'clientWidth','clientHeight');
+            var pointLight = new mono.PointLight(0xFFFFFF,2);
+            pointLight.setPosition(1000,1000,1000);
+            box.add(pointLight);
+            box.add(new mono.AmbientLight(0x77777777));
+
+
+            cube.s({
+                'm.type':'phong',
+                'front.m.texture.image':'res/equs/equ'+no+'.png',
+                'back.m.texture.image':'res/equs/equ'+no+'_b.png',
+                'm.color': 'gray',
+                'm.ambient': 'lightgray',
+            });
+            cube.setRotation(Math.PI/180*0,Math.PI/180*0,Math.PI/180*0);
+
+            box.add(cube);
+        }
+        var changeEqu=function (no,unit) {
+
+            cube.setHeight(108 * unit);
+            cube.setStyle('front.m.texture.image', 'res/equs/equ' + no + '.png');
+            cube.setStyle('back.m.texture.image', 'res/equs/equ' + no + '_b.png');
+            if (no === '6') {
+                cube.setStyle('left.m.texture.image', 'res/equs/equ' + no + '_l.png');
+                cube.setStyle('right.m.texture.image', 'res/equs/equ' + no + '_r.png');
+            }
+            else {
+                cube.setStyle('left.m.texture.image', 'res/equs/gray.png');
+                cube.setStyle('right.m.texture.image', 'res/equs/gray.png');
+            }
+        }
+      function autoLoad() {
+
+          var paraStr=location.search;
+          var paras=paraStr.split("&");
+          var no,unit;
+          no= paras[0].split("no=")[1];
+          unit=paras[1].split("unit=")[1];
+
+          init(no);
+          changeEqu(no,unit);
+      }
+
+
+    </script>
+    <title>使用DataBox</title>
+
+</head>
+<body onload="autoLoad()"  >
+
+<style>
+    html{overflow: hidden}
+</style>
+<canvas id="myCanvas">
+
+</canvas>
+<!--
+<div>
+    <button onclick="changeEqu('1',1)">标清编码器</button>
+    <button onclick="changeEqu('13',1)">高清编码器</button>
+    <button onclick="changeEqu('2',1)">广播编码器</button>
+    <button onclick="changeEqu('3',1)">复用器</button>
+    <button onclick="changeEqu('4',1)">复用器开关</button>
+    <button onclick="changeEqu('5',1)">标清调制器</button>
+    <button onclick="changeEqu('12',1)">高清调制器</button>
+    <button onclick="changeEqu('6',1)">上变频器</button>
+    <button onclick="changeEqu('7',10)">高功放</button>
+    <button onclick="changeEqu('8',2)">信标接收机</button>
+    <button onclick="changeEqu('9',3)">充气机</button>
+    <button onclick="changeEqu('10',4)">天线控制器</button>
+    <button onclick="changeEqu('11',1)">自环</button>
+
+
+</div>
+-->
+</body>
+
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>机架编辑器</title>
+    <meta name="keywords" content="TWaver, TWaver 3D, 3D, editor, "/>
+    <meta name="description" content=""/>
+    <link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.min.css">
+    <link rel="stylesheet" href="./css/twaver-doodle.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id='top'>
+    <img src='./images/logo.png' alt='mono can' id='top-logo'><span>Rack Editor</span>
+    <div><span></span>
+        <div class='header'></div>
+    </div>
+    <div id="toolbar" class="toolbar">
+        <span id='undo' class="mn-toolbar mn-undo" title = "前进"></span>
+        <span id='redo' class="mn-toolbar mn-redo" title = "后退"></span>
+        <span id="overview" class="mn-toolbar mn-overview" title="缩放到全屏"></span>
+        <span id="import" class="mn-toolbar mn-import-json" title="导入JSON"></span>
+        <span id='export' class="mn-toolbar mn-export-json" title="导出JSON"></span>
+    
+        <span id='saveDevicePatten' class="mn-toolbar mn-export-device" title="导出设备"></span>
+        <span id='saveRackPatten' class="mn-toolbar mn-export-rack" title="导出机柜"></span>
+        <span id='save' class="mn-toolbar mn-save" title="保存模板"></span>
+    </div>
+</div>
+<div class="main" id="mainBox">
+</div>
+<div id='footer'>
+    <p class="footer-p">Copyright 2016 地球站仿真系统 | 机架编辑器 </p>
+</div>
+<script src="libs/jquery.js"></script>
+<script src="libs/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="libs/jquery.ba-resize.js"></script>
+<script src="libs/twaver.js"></script>
+<script src="libs/t.js"></script>
+<script src="libs/twaver-make.js"></script>
+
+<script src="libs/twaver-doodle.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<script src="rackEditor.js"></script>
+<script src="libs/serverCache.js"></script>
+<script src="libs/memoryCache.js"></script>
+<script src="tools.js"></script>
+<script src="libs/proxy.js"></script>
+</body>
+</html>
